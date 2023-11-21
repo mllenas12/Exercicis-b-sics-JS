@@ -102,3 +102,4 @@ let promesa2 = new Promise((resolve, reject) => {
 Promise.all([promesa1, promesa2])
     .then((resultats) => console.log(resultats));
 
+ 
